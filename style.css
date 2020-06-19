@@ -1,0 +1,169 @@
+body{
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px; 
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.header{
+    margin: auto;
+    width: 100%;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: cover;
+    display: inline;
+}
+.container{
+    height: 380px;
+    padding: 35px 50px 35px 50px;
+}
+.logo{
+    
+}
+.button{
+	box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.15);
+	border-radius:200px;
+	display:inline-block;
+	color:#000;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+	font-size:14px;
+    padding:16px 31px;
+	text-decoration:none;
+}
+.buttonwhite{
+    padding: 18px 38px;
+    background-color: #fff;
+    float: right;
+
+}
+.button:hover {
+    background-color: #5cbf2a;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+.button2{
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.15);
+	border-radius:200px;
+	display:inline-block;
+	color:#000;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size:14px;
+    padding: 16px 31px;
+    text-decoration:none;
+    margin-left: 50px;
+    
+}
+.buttonpink{
+    padding: 22px 50px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
+.buttonpink:hover{
+    background-color: #5cbf2a;
+}
+.button:active {
+    
+}
+.section {
+    display: block;
+    
+}
+.textarea1 {
+    width: 100%;
+}
+.header_title{
+    float: left; 
+    width: 40%;
+    position: absolute;
+    margin-top: 100px;
+}
+.header_text{
+    float: left;
+    width: 40%;
+    margin-top: 230px;
+    
+}
+.image{
+    max-width: 50%;
+    float: right;
+    right: 2%;
+    top: 24%;
+    position: absolute;
+    
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 830px){
+    .header{
+        margin: 0;
+        width: 100%;
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    .container{
+        max-width: 830px;
+        height: 250px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .logo{
+        height: 16px;
+        width: 95px;
+    }
+    .button{
+        padding: 10px 30px 14px;
+        font-size: 12px;
+        float: right;
+        text-align: center;
+    }
+    .buttonwhite{
+        height: 13px;
+        width: 65px;
+    }
+    .section{
+        width: 100%;
+    }
+    .header_title{
+        width: 90%;
+        height: 200px;
+        margin-top: 80px;
+        font-size: 24px;
+        text-align: center;
+        display: block;
+
+    }
+    .header_text{
+        width: 95%;
+        height: 200px;
+        margin-top: 170px;
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+}
+    .buttonpink{
+}
+    .button2{
+        margin-left: 20%;
+        font-size:12px;
+        float: center;
+        text-align: center;
+    }
+    .image{
+        max-width: 100%;
+        margin-left: 3%;
+        padding-top: 6%;
+        position: relative;
+    }
+
+}
+
+
+@media only screen and (min-width: 760px) and (max-width: 1030px){
+
+}
